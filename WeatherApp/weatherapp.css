@@ -1,0 +1,98 @@
+/* ---------------Weather App Project----------------  */ 
+
+body{
+    font-family: Georgia;
+    background-color: hsl(0, 0%, 95%);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.weatherForm{
+    margin: 20px;
+
+}
+
+.cityInput{
+    padding: 10px;
+    font-size: 2rem;
+    border: 2px solid hsla(0, 0% 20%, 0.3);
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+button[type="submit"]{
+    font-weight: bold;
+    font-family: Georgia;
+    border: none;
+    background-color: hsl(122, 39%, 50%);
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    font-size: 2rem;
+    padding: 10px 20px;
+}
+
+button[type="submit"]:hover{
+    background-color: hsl(122, 39%, 45%);
+
+}
+
+.card{
+    background: linear-gradient(180deg, rgba(0, 195, 255, 0.747), rgba(37, 196, 5, 0.562));
+    padding: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.065);
+    border-radius: 15px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 3.5rem;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+p{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, 0.705);
+    margin-bottom: 25px;
+}
+
+.cityDisplay, .tempDisplay{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, 0.75);
+    margin-bottom: 25px;
+}
+
+.humidityDispaly{
+    font-weight: bold;
+    margin-bottom: 25px;
+
+}
+
+.descDisplay{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.weatherEmoji{
+    margin: 0;
+    font-size: 7.5rem;
+
+
+}
+
+.errorDisplay{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.678);
+}
